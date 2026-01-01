@@ -67,7 +67,7 @@ export default function AboutSection() {
                                 <span>{portfolioData.personalInfo.name}</span>
                             </li>
                             <li className="flex items-start gap-3">
-                                <span className="font-semibold text-white min-w-[100px]">ตำแหน่ง:</span>
+                                <span className="font-semibold text-white min-w-[100px]">อาชีพ:</span>
                                 <span>{portfolioData.personalInfo.role}</span>
                             </li>
                             <li className="flex items-start gap-3">
