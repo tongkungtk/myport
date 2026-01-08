@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from 'next/font/google'
 import BackgroundAnimation from "@/components/BackgroundAnimation";
+import MouseFollower from "@/components/MouseFollower";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className="dark scroll-smooth">
             <body className={inter.className}>
                 <BackgroundAnimation />
+                <MouseFollower />
                 <div className="relative z-10">
                     {children}
                 </div>

@@ -46,6 +46,15 @@ export const portfolioData = {
             github: 'https://github.com/tongkungtk/hatyai-flood-relief',
             demo: 'https://hatyai-flood-relief.vercel.app/',
             image: '/images/hatyai-flood-relief.png'
+        },
+        {
+            id: 3,
+            title: 'BasePilates',
+            description: 'เว็บไซต์ Landing Page สำหรับสตูดิโอพิลาทิส BasePilates ที่เน้นความเรียบง่ายและทันสมัย',
+            techStack: ['HTML', 'CSS', 'JavaScript'],
+            github: 'https://github.com/tongkungtk/basepilates',
+            demo: 'https://basepilates.vercel.app/',
+            image: '/images/basepilates.jpg'
         }
     ]
 };
