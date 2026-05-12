@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="py-8 bg-black border-t border-neutral-900 text-center">
             <div className="container mx-auto px-6">
                 <p className="text-gray-500 text-sm">
-                    © {new Date().getFullYear()} {portfolioData.personalInfo.name}. สงวนลิขสิทธิ์. สร้างด้วย Next.js & Tailwind.
+                    © {new Date().getFullYear()} {portfolioData.personalInfo.name}. AI Automation & Web Portfolio.
                 </p>
             </div>
         </footer>

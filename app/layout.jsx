@@ -6,13 +6,13 @@ import MouseFollower from "@/components/MouseFollower";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-    title: "My Portfolio",
-    description: "Senior Frontend Developer Portfolio",
+    title: "Theeranan Phetsuk | Portfolio",
+    description: "Portfolio of Theeranan Phetsuk, featuring web development, AI automation, and IT projects.",
 };
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className="dark scroll-smooth">
+        <html lang="th" className="dark scroll-smooth">
             <body className={inter.className}>
                 <BackgroundAnimation />
                 <MouseFollower />

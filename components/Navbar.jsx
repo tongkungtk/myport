@@ -19,6 +19,8 @@ export default function Navbar() {
     const navLinks = [
         { name: 'เกี่ยวกับ', href: '#about' },
         { name: 'ผลงาน', href: '#projects' },
+        { name: 'ประสบการณ์', href: '#experience' },
+        { name: 'ติดต่อ', href: '#contact' },
     ];
 
     return (
@@ -28,8 +30,8 @@ export default function Navbar() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2">
-                    <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
-                        Tk.dev
+                    <span className="text-2xl font-bold text-white">
+                        TK Portfolio
                     </span>
                 </Link>
 
@@ -51,6 +53,7 @@ export default function Navbar() {
                 <button
                     className="md:hidden text-white"
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="Toggle navigation menu"
                 >
                     {isOpen ? <X /> : <Menu />}
                 </button>
