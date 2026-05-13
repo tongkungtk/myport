@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexFlow CRM Mockup</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">LF</div>
+        <div>
+          <strong>LexFlow CRM</strong>
+          <span>Legal & Accounting Ops</span>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>ภาพรวม</span></button>
+        <button class="nav-item" data-view="pipeline"><i data-lucide="kanban-square"></i><span>เคส/ลูกค้า</span></button>
+        <button class="nav-item" data-view="automation"><i data-lucide="workflow"></i><span>Automation</span></button>
+        <button class="nav-item" data-view="ai"><i data-lucide="sparkles"></i><span>AI Brief</span></button>
+      </nav>
+
+      <div class="sidebar-panel">
+        <span class="eyebrow">Portfolio Focus</span>
+        <p>Mockup นี้ออกแบบให้โชว์ทักษะ CRM, no-code workflow, AI operations และ API handoff สำหรับสมัครงาน Business Systems & AI Automation Specialist</p>
+      </div>
+    </aside>
+
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Internal system mockup</p>
+          <h1>ระบบติดตามลูกค้า งานกฎหมาย บัญชี และ Automation</h1>
+        </div>
+        <div class="topbar-actions">
+          <div class="search">
+            <i data-lucide="search"></i>
+            <input id="globalSearch" type="search" placeholder="ค้นหาลูกค้า เคส หรือเอกสาร" />
+          </div>
+          <button class="icon-button" title="แจ้งเตือน"><i data-lucide="bell"></i><span class="dot"></span></button>
+          <button class="primary-button" id="newCaseBtn"><i data-lucide="plus"></i><span>เพิ่มเคส</span></button>
+        </div>
+      </header>
+
+      <section class="view active" id="dashboard">
+        <div class="metric-grid">
+          <article class="metric">
+            <span>เคสเปิดอยู่</span>
+            <strong>48</strong>
+            <small class="up">+12% จากเดือนก่อน</small>
+          </article>
+          <article class="metric">
+            <span>เอกสารรอตรวจ</span>
+            <strong>17</strong>
+            <small class="warn">6 รายการเกิน SLA</small>
+          </article>
+          <article class="metric">
+            <span>Automation สำเร็จ</span>
+            <strong>1,284</strong>
+            <small class="up">ประหยัด 32 ชม./สัปดาห์</small>
+          </article>
+          <article class="metric">
+            <span>API Health</span>
+            <strong>99.7%</strong>
+            <small>CRM, Email, WordPress</small>
+          </article>
+        </div>
+
+        <div class="dashboard-layout">
+          <section class="panel workload-panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Operations queue</p>
+                <h2>งานที่ควรจัดการวันนี้</h2>
+              </div>
+              <button class="ghost-button"><i data-lucide="sliders-horizontal"></i><span>ตัวกรอง</span></button>
+            </div>
+            <div class="task-list" id="taskList"></div>
+          </section>
+
+          <section class="panel chart-panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Case intake</p>
+                <h2>ช่องทางรับลูกค้า</h2>
+              </div>
+              <span class="pill">Live mock data</span>
+            </div>
+            <div class="bar-chart" aria-label="Lead source chart">
+              <div style="--h: 78%"><span>Website</span></div>
+              <div style="--h: 52%"><span>LINE</span></div>
+              <div style="--h: 43%"><span>Referral</span></div>
+              <div style="--h: 31%"><span>Walk-in</span></div>
+              <div style="--h: 66%"><span>Ads</span></div>
+            </div>
+            <div class="insight-strip">
+              <i data-lucide="lightbulb"></i>
+              <p>AI แนะนำให้ส่ง follow-up ภาษาอังกฤษให้กลุ่ม Website lead ภายใน 2 ชั่วโมง เพราะ conversion สูงสุดในสัปดาห์นี้</p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="pipeline">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">CRM pipeline</p>
+            <h2>ลูกค้าและสถานะงาน</h2>
+          </div>
+          <div class="segmented" role="tablist" aria-label="Pipeline filter">
+            <button class="active" data-filter="all">ทั้งหมด</button>
+            <button data-filter="legal">Legal</button>
+            <button data-filter="accounting">Accounting</button>
+            <button data-filter="urgent">Urgent</button>
+          </div>
+        </div>
+        <div class="pipeline-board" id="pipelineBoard"></div>
+      </section>
+
+      <section class="view" id="automation">
+        <div class="automation-layout">
+          <section class="panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">No-code workflow</p>
+                <h2>Automation ที่เหมาะกับบริษัท</h2>
+              </div>
+              <button class="primary-button" id="runAutomationBtn"><i data-lucide="play"></i><span>Run demo</span></button>
+            </div>
+            <div class="automation-list" id="automationList"></div>
+          </section>
+
+          <section class="panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">System map</p>
+                <h2>ภาพรวมการเชื่อมต่อ</h2>
+              </div>
+              <span class="pill">API-ready</span>
+            </div>
+            <img class="workflow-map" src="assets/workflow-map.svg" alt="LexFlow CRM workflow map" />
+            <div class="status-feed" id="statusFeed"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="ai">
+        <div class="ai-layout">
+          <section class="panel ai-panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">AI assistant</p>
+                <h2>สร้าง brief ให้ทีมจากข้อมูล CRM</h2>
+              </div>
+              <button class="primary-button" id="generateBriefBtn"><i data-lucide="wand-sparkles"></i><span>Generate brief</span></button>
+            </div>
+            <label class="field">
+              <span>เลือกเคส</span>
+              <select id="caseSelect">
+                <option value="visa">Visa renewal - Phuket villa owner</option>
+                <option value="tax">Monthly tax filing - hospitality group</option>
+                <option value="company">Company registration - foreign founder</option>
+              </select>
+            </label>
+            <div class="brief-output" id="briefOutput">
+              <p>เลือกเคสแล้วกด Generate brief เพื่อจำลองการสรุปข้อมูลลูกค้า งานค้าง เอกสารที่ต้องขอ และข้อความ follow-up สำหรับทีมไทย/อังกฤษ</p>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Prompt controls</p>
+                <h2>นโยบายการใช้ AI ภายใน</h2>
+              </div>
+            </div>
+            <div class="policy-list">
+              <label><input type="checkbox" checked /> ซ่อนเลขพาสปอร์ตและ Tax ID ก่อนส่งเข้า AI</label>
+              <label><input type="checkbox" checked /> บันทึก prompt/output เพื่อ audit ภายหลัง</label>
+              <label><input type="checkbox" checked /> แยก tone ภาษาไทยและอังกฤษตามประเภทลูกค้า</label>
+              <label><input type="checkbox" /> ส่งข้อความ follow-up อัตโนมัติหลังผู้ใช้อนุมัติ</label>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

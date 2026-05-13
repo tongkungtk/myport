@@ -1,0 +1,39 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LexFlow CRM workflow map</title>
+  <desc id="desc">Workflow showing website, line and email intake connected to CRM, AI assistant, automation engine, accounting queue, legal review, WordPress and management report.</desc>
+  <rect width="960" height="600" rx="18" fill="#FBFCFB"/>
+  <rect x="40" y="58" width="180" height="90" rx="12" fill="#D9EFEB" stroke="#7AC7BC"/>
+  <rect x="40" y="196" width="180" height="90" rx="12" fill="#F7E8C4" stroke="#D6B15B"/>
+  <rect x="40" y="334" width="180" height="90" rx="12" fill="#E5EEF4" stroke="#82AEC8"/>
+  <rect x="390" y="205" width="190" height="110" rx="14" fill="#203031"/>
+  <rect x="697" y="58" width="190" height="82" rx="12" fill="#FFE0D8" stroke="#E49A86"/>
+  <rect x="697" y="183" width="190" height="82" rx="12" fill="#E5F4EF" stroke="#8AC4AA"/>
+  <rect x="697" y="308" width="190" height="82" rx="12" fill="#F1EDF8" stroke="#B8A7D8"/>
+  <rect x="697" y="433" width="190" height="82" rx="12" fill="#EEF3EF" stroke="#B7C6BA"/>
+  <path d="M220 103C282 103 316 179 390 235" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220 241H390" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220 379C284 379 318 302 390 282" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M580 260C632 260 646 99 697 99" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M580 260H697" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M580 260C632 260 646 349 697 349" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <path d="M580 260C632 260 646 474 697 474" stroke="#617073" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="304" cy="241" r="8" fill="#0F766E"/>
+  <circle cx="642" cy="260" r="8" fill="#0F766E"/>
+  <text x="66" y="96" fill="#1D2528" font-family="Segoe UI, Arial" font-size="20" font-weight="700">Website Form</text>
+  <text x="66" y="123" fill="#617073" font-family="Segoe UI, Arial" font-size="15">WordPress lead intake</text>
+  <text x="66" y="234" fill="#1D2528" font-family="Segoe UI, Arial" font-size="20" font-weight="700">LINE / Chat</text>
+  <text x="66" y="261" fill="#617073" font-family="Segoe UI, Arial" font-size="15">Thai and EN messages</text>
+  <text x="66" y="372" fill="#1D2528" font-family="Segoe UI, Arial" font-size="20" font-weight="700">Email Inbox</text>
+  <text x="66" y="399" fill="#617073" font-family="Segoe UI, Arial" font-size="15">Docs and invoices</text>
+  <text x="427" y="244" fill="#F8FBF7" font-family="Segoe UI, Arial" font-size="24" font-weight="800">CRM Core</text>
+  <text x="426" y="276" fill="#B7C9C6" font-family="Segoe UI, Arial" font-size="16">AI classification</text>
+  <text x="426" y="299" fill="#B7C9C6" font-family="Segoe UI, Arial" font-size="16">Workflow automation</text>
+  <text x="725" y="91" fill="#1D2528" font-family="Segoe UI, Arial" font-size="19" font-weight="700">Legal Review</text>
+  <text x="725" y="116" fill="#617073" font-family="Segoe UI, Arial" font-size="14">Visa, DBD, contracts</text>
+  <text x="725" y="216" fill="#1D2528" font-family="Segoe UI, Arial" font-size="19" font-weight="700">Accounting Queue</text>
+  <text x="725" y="241" fill="#617073" font-family="Segoe UI, Arial" font-size="14">VAT, payroll, reports</text>
+  <text x="725" y="341" fill="#1D2528" font-family="Segoe UI, Arial" font-size="19" font-weight="700">AI Brief</text>
+  <text x="725" y="366" fill="#617073" font-family="Segoe UI, Arial" font-size="14">Summaries and replies</text>
+  <text x="725" y="466" fill="#1D2528" font-family="Segoe UI, Arial" font-size="19" font-weight="700">Management Report</text>
+  <text x="725" y="491" fill="#617073" font-family="Segoe UI, Arial" font-size="14">SLA and pipeline insight</text>
+</svg>

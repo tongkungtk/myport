@@ -126,6 +126,16 @@ export const portfolioData = {
         },
         {
             id: 5,
+            title: 'LexFlow CRM',
+            description: 'CRM mockup สำหรับงานกฎหมายและบัญชี รวม pipeline ลูกค้า งานเอกสาร งานบัญชี AI brief และ automation workflow เช่น website form to CRM, email attachment to checklist และ invoice import',
+            techStack: ['CRM', 'HTML', 'CSS', 'JavaScript', 'Workflow Automation', 'AI Operations'],
+            category: 'Business System',
+            status: 'Internal CRM mockup',
+            demo: '/tkcrm/index.html',
+            image: '/images/tkcrm.png'
+        },
+        {
+            id: 6,
             title: 'เว็บไซต์ Rotaract',
             description: 'เว็บไซต์ชมรม Rotaract มหาวิทยาลัยสงขลานครินทร์ พร้อมระบบจัดการข้อมูลและภาพกิจกรรม',
             techStack: ['Next.js', 'Prisma', 'Tailwind CSS', 'AWS S3'],
@@ -136,7 +146,7 @@ export const portfolioData = {
             status: 'Live website'
         },
         {
-            id: 6,
+            id: 7,
             title: 'เว็บช่วยเหลือน้ำท่วมหาดใหญ่',
             description: 'เว็บสำหรับรวบรวมข้อมูลช่วยเหลือน้ำท่วมและสนับสนุนการสื่อสารข้อมูลที่จำเป็นในช่วงสถานการณ์เร่งด่วน',
             techStack: ['Vite', 'React', 'Tailwind CSS', 'Framer Motion'],
@@ -147,7 +157,7 @@ export const portfolioData = {
             status: 'Live website'
         },
         {
-            id: 7,
+            id: 8,
             title: 'BasePilates Landing Page',
             description: 'Landing Page สำหรับสตูดิโอพิลาทิส BasePilates เน้นการนำเสนอสินค้าและบริการแบบเรียบง่าย ทันสมัย และใช้งานได้จริง',
             techStack: ['HTML', 'CSS', 'JavaScript'],
